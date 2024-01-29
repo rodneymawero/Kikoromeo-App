@@ -39,6 +39,6 @@ Secondly, the disease can develop over months or even years, hence symptoms are 
 
 ## The Model Deployed
 
-The model used in deployment is the Catboost model trained with the OneVsRestClassifier strategy for multi-class classification tasks in Scikit-learn. The Catboost_clf predicts whether one is negative, primary hypothyroid or has compensatory hypothyrodism. 
+The model used in deployment is the Catboost model trained with the OneVsRestClassifier strategy for multi-class classification tasks in Scikit-learn. The Catboost_clf not only predicts whether one is negative, primary hypothyroid or has compensatory hypothyrodism, but also outputs the prediction probabilities for the predicted class, given the user inputs of course ;-).
 
 CatBoost is  known for its robustness and ability to handle categorical features. The OneVsRestClassifier strategy in scikitlearn  extends binary classification to multi-class scenarios. This combination allows one to effectively tackle complex classification problems with superior performance and accuracy.
