@@ -1,2 +1,3 @@
 streamlit==1.29.0
-pip install scikit-learn
+scikit-learn==1.2.2
+numpy==1.23.5
