@@ -2,9 +2,9 @@
 
 Hypothyroid disease prediction, using the Thyroid Dataset from the UCI Machine Learning Repository. Courtesy of the Garavan Institute and Ross Quinlan
 
-## Demo App
+## Kikoromeo-App 
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]
+[![(https://kikoromeo-app-uhjtjqghrwavasvsbmcasi.streamlit.app/)](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]
 
 
 
