@@ -4,7 +4,7 @@ Hypothyroid disease prediction, using the Thyroid Dataset from the UCI Machine L
 
 ## Kikoromeo-App 
 
-[![(https://kikoromeo-app-uhjtjqghrwavasvsbmcasi.streamlit.app/)](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://kikoromeo-app-uhjtjqghrwavasvsbmcasi.streamlit.app/)
 
 
 
