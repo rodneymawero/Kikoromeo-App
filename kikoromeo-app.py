@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-from sklearn.preprocessing import LabelBinarizer
 
 # Load the pickled model
 with open('catboost_clf.pkl', 'rb') as f:
