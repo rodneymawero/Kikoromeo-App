@@ -35,3 +35,10 @@ Secondly, the disease can develop over months or even years, hence symptoms are 
 -2. Detemine the type of hypothyrodism based on clinical data.
 
 -3. Deploy an app that will not only display the class, but the prediction probabilities for the given class.
+
+
+## The Model Deployed
+
+The model used in deployment is the Catboost model trained with the OneVsRestClassifier strategy for multi-class classification tasks in Scikit-learn. The Catboost_clf predicts whether one is negative, primary hypothyroid or has compensatory hypothyrodism. 
+
+CatBoost is  known for its robustness and ability to handle categorical features. The OneVsRestClassifier strategy in scikitlearn  extends binary classification to multi-class scenarios. This combination allows one to effectively tackle complex classification problems with superior performance and accuracy.
