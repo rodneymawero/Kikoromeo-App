@@ -80,15 +80,15 @@ def main():
     psych = st.sidebar.radio('psych', ('Yes', 'No'))
     TSH_measured = st.sidebar.radio('TSH_measured', ('Yes', 'No'))
     TSH = st.sidebar.slider('TSH: Thyroid Stimulating Hormone', min_value=0.0, max_value=200.0)
-    T3_measured = st.sidebar.radio('18', ('Yes', 'No'))
-    T3 = st.sidebar.slider('T3', min_value=0.0, max_value=10.0)
-    TT4_measured = st.sidebar.radio('20', ('Yes', 'No'))
-    TT4 = st.sidebar.slider('TT4', min_value=0.0, max_value=400.0)
+    T3_measured = st.sidebar.radio('T3 measured', ('Yes', 'No'))
+    T3 = st.sidebar.slider('T3: Triiodothyronine ', min_value=0.0, max_value=10.0)
+    TT4_measured = st.sidebar.radio('TT4 measured', ('Yes', 'No'))
+    TT4 = st.sidebar.slider('TT4: Thyroxine', min_value=0.0, max_value=400.0)
     T4U_measured = st.sidebar.radio('T4U_measured', ('Yes', 'No'))
-    T4U = st.sidebar.slider('T4U', min_value=0.0, max_value=3.0)
-    FTI_measured = st.sidebar.radio('25', ('Yes', 'No'))
-    FTI = st.sidebar.slider('FTI: Free Thyroxine Index', min_value=0.0, max_value=300.0)
-    referral_source = st.sidebar.radio('referral source', (5, 4, 3, 2, 1))
+    T4U = st.sidebar.slider('T4U: Thyroxine Uptake', min_value=0.0, max_value=3.0)
+    FTI_measured = st.sidebar.radio('FTI measured', ('Yes', 'No'))
+    FTI = st.sidebar.slider('FTI: Free Thyroxine Index (Total T4/Thyroid Binding Globulin)', min_value=0.0, max_value=300.0)
+    referral_source = st.sidebar.radio("referral source:  'other':5 , 'SVI':4, 'SVHC':3, 'STMW':2, 'SVHD':1", (5, 4, 3, 2, 1))
 
 
     # Main content
