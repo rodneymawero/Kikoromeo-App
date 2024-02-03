@@ -2,11 +2,9 @@
 
 Hypothyroid disease prediction, using the Thyroid Dataset from the UCI Machine Learning Repository. Courtesy of the Garavan Institute and Ross Quinlan
 
-## Kikoromeo-App 
+## Kikoromeo-App
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://kikoromeo-app-uhjtjqghrwavasvsbmcasi.streamlit.app/)
-
-
 
 ## 1.0 Introduction
 
@@ -18,13 +16,12 @@ Thyroid problems are also often caused by autoimmune disorders, in which the imm
 
 Hypothyroidism is a condition where the thyroid gland is underactive and doesn't produce enough thyroid hormones. The primary hormones produced by the thyroid gland are Triiodothyronine (T3), Thyroxine (T4), and Thyroid-Stimulating Hormone (TSH). Testing the levels of these hormones in the body is important in determining whether one is hypothyroid or not.
 
-
-
 ### 1.1 Problem Statement
 
 Hypothyrodism can be hard to diagnose. First, its symptoms are similar to other diseases. These include fatigue, losing weight,
 
-fast heartbeat(tachycardia), irregular heartbeat (arrhythmia), enlarged thyroid gland, sometimes called a goiter, increased hunger, nervousness, changes in menstrual cycle, anxiety and irritability among others. https://www.mayoclinic.org/diseases-conditions/hyperthyroidism/symptoms-causes/syc-20373659
+fast heartbeat(tachycardia), irregular heartbeat (arrhythmia), enlarged thyroid gland, sometimes called a goiter, increased hunger, nervousness, changes in menstrual cycle, anxiety and irritability among others.
+https://www.mayoclinic.org/diseases-conditions/hypothyroidism/symptoms-causes/syc-20350284
 
 Many patients mistakenly attribute syptoms to aging or other factors and unnecessarily delay treatment https://newsinhealth.nih.gov/2015/09/thinking-about-your-thyroid#:~:text=When%20thyroid%20glands%20don't,in%20people%20over%20age%2060.
 
@@ -35,7 +32,6 @@ Secondly, the disease can develop over months or even years, hence symptoms are 
 -2. Detemine the type of hypothyrodism based on clinical data.
 
 -3. Deploy an app that will not only display the class, but the prediction probabilities for the given class.
-
 
 ## The Model Deployed
 
