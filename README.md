@@ -18,7 +18,7 @@ Hypothyroidism is a condition where the thyroid gland is underactive and doesn't
 
 ### 1.1 Problem Statement
 
-Hypothyrodism can be hard to diagnose. First, its symptoms are similar to other diseases. These include fatigue, losing weight,
+Hypothyroidism can be hard to diagnose. First, its symptoms are similar to other diseases. These include fatigue, losing weight,
 
 fast heartbeat(tachycardia), irregular heartbeat (arrhythmia), enlarged thyroid gland, sometimes called a goiter, increased hunger, nervousness, changes in menstrual cycle, anxiety and irritability among others.
 https://www.mayoclinic.org/diseases-conditions/hypothyroidism/symptoms-causes/syc-20350284
@@ -29,7 +29,7 @@ Secondly, the disease can develop over months or even years, hence symptoms are 
 
 -1. Predict whether a patient is hypothyroid or not,
 
--2. Detemine the type of hypothyrodism based on clinical data.
+-2. Detemine the type of hypothyroidism based on clinical data.
 
 -3. Deploy an app that will not only display the class, but the prediction probabilities for the given class.
 
