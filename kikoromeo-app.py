@@ -33,7 +33,7 @@ def main():
 
     st.write("Welcome to the Disease Prediction App created by Mawero Rodney G. 😎😎. He is a Kenyan. \U0001F1F0\U0001F1EA")
 
-    st.write("**Kikoromeo** is a word in Kiswahili that means **thyroid gland** (sic). **(tezi dundumio** is more precise, as kikoromeo is mostly used to refer to the adams apple 😁))
+    st.write("**Kikoromeo** is a word in Kiswahili that means **thyroid gland** (sic). **(tezi dundumio** is more precise, as kikoromeo is mostly used to refer to the adams apple 😁"))
 
     st.write("The dataset used to build the model is the Thyroid Dataset (Garavan Institute) from the UCI Machine Learning Repository  https://archive.ics.uci.edu/dataset/102/thyroid+disease. ")
 
