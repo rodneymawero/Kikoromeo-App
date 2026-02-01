@@ -4,16 +4,39 @@ import numpy as np
 import pickle
 
 # Load the pickled model
-with open('catboost_clf.pkl', 'rb') as f:
-    model = pickle.load(f)
+#with open('catboost_clf.pkl', 'rb') as f:
+#    model = pickle.load(f)
 
 # Load the scaler
-with open('scaler.pkl', 'rb') as f:
-    scaler = pickle.load(f)
+#with open('scaler.pkl', 'rb') as f:
+#    scaler = pickle.load(f)
 
 # load the label binarizer 
-with open('lbl.pkl', 'rb') as f:
-    lbl = pickle.load(f)
+#with open('lbl.pkl', 'rb') as f:
+#    lbl = pickle.load(f)
+
+@st.cache_resource
+def load_model():
+    with open('catboost_clf.pkl', 'rb') as f:
+        model = pickle.load(f)
+    return model
+
+@st.cache_resource
+def load_scaler():
+    with open('scaler.pkl', 'rb') as f:
+        scaler = pickle.load(f)
+    return scaler
+
+@st.cache_resource
+def load_label_binarizer():
+    with open('lbl.pkl', 'rb') as f:
+        lbl = pickle.load(f)
+    return lbl
+
+model = load_model()
+scaler = load_scaler()
+lbl = load_label_binarizer()
+
 
 # Save feature names
 #with open('feature_names.pkl', 'wb') as f:
