@@ -18,8 +18,8 @@ Goitre, for instance, can be caused by deficiency of iodine in the diet.  The bo
 
 Thyroid problems are also often caused by autoimmune disorders, in which the immune system mistakenly attacks and destroys the body’s own cells. For example, an autoimmune disorder called Graves’ disease can cause the thyroid to be over-active, while one called Hashimoto’s disease can make the thyroid under-active.
 
-Hypothyroidism is a condition where the thyroid gland is underactive and doesn't produce enough thyroid hormones. The primary hormones produced by the thyroid gland are Triiodothyronine (T3), Thyroxine (T4), and Thyroid-Stimulating Hormone (TSH). Testing the levels of these hormones in the body is important in determining whether one is hypothyroid or not.
-
+Hypothyroidism is a condition where the thyroid gland is underactive and doesn't produce enough thyroid hormones. The primary hormones produced by the thyroid gland are Triiodothyronine (T3) and Thyroxine (T4). While T3 is the active form, T4 is converted to T3 in tissues. Thyroid-stimulating hormone (TSH) is produced by the pituitary gland, to regulate T3/T4 production. Testing the levels of these hormones in the body is important in determining whether one is hypothyroid or not.
+ 
 ### 1.1 Problem Statement
 
 Hypothyroidism can be hard to diagnose. First, its symptoms are similar to other diseases. These include fatigue, losing weight,
